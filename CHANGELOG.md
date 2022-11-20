@@ -9,3 +9,4 @@
 ## [0.1.1] - 2022-11-20
 
 - Adds Documentations
+- Update gemspec
