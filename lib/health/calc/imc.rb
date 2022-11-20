@@ -2,7 +2,7 @@
 
 module Health
   module Calc
-    # Class to do operations regarding the IMC calculation
+    # Class to do operations regarding the BMI calculation
     class Imc
       def self.calculate_value(weight: nil, height: nil)
         raise ArgumentError, "You need to send both weight and height" if weight.nil? || height.nil?
